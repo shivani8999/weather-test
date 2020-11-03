@@ -1,0 +1,76 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.weather</groupId>
+  <artifactId>weathertest</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Weather Test</name>
+  
+  <dependencies>
+  
+  <dependency>
+    <groupId>org.apache.httpcomponents</groupId>
+    <artifactId>httpclient</artifactId>
+    <version>4.3.6</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.json/json -->
+<dependency>
+    <groupId>org.json</groupId>
+    <artifactId>json</artifactId>
+    <version>20190722</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/log4j/log4j -->
+<dependency>
+    <groupId>log4j</groupId>
+    <artifactId>log4j</artifactId>
+    <version>1.2.17</version>
+</dependency>
+
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-jdk14</artifactId>
+    <version>2.0.0-alpha0</version>
+    <scope>test</scope>
+</dependency> 
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-simple</artifactId>
+    <version>2.0.0-alpha0</version>
+    <scope>test</scope>
+</dependency>
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-log4j12</artifactId>
+    <version>2.0.0-alpha0</version>
+    <scope>test</scope>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-api</artifactId>
+    <version>2.0.0-alpha1</version>
+</dependency>
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-api</artifactId>
+    <version>2.0.0-alpha0</version>
+</dependency>
+
+
+        <!-- <dependency>
+            <groupId>net.aksingh</groupId>
+            <artifactId>owm-japis</artifactId>
+            <version>2.5.0.3</version>
+        </dependency> -->
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20151123</version>
+        </dependency>
+
+
+</dependencies>
+  
+</project>
